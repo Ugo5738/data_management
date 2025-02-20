@@ -42,7 +42,7 @@ permissions_urlpatterns = [
 
 custom_urlpatterns = [
     path("api/auth/", include("accounts.urls")),
-    path("api/backup/", include("backup.urls")),
+    path("api/data-management/", include("data_management.urls")),
 ]
 
 spectacular_urlpatterns = [
